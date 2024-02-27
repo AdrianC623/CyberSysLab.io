@@ -1,0 +1,24 @@
+header {
+    background-color: blue;
+    text-align: center;
+    font-size: 32px;
+    color: azure;
+}
+
+header img {
+    float: right;
+}
+
+#sidebar {
+    width: 200px;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 10px;
+    min-height: 1000px;
+}
+
+main {
+    margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
+    padding: 10px;
+    background-color: #fff;
+}
