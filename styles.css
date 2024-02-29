@@ -1,5 +1,5 @@
 header {
-    background-color: blue;
+    background-color: #0032a1;
     text-align: center;
     font-size: 32px;
     color: azure;
@@ -21,4 +21,8 @@ main {
     margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
     padding: 10px;
     background-color: #fff;
+}
+
+body {
+    background image: url ("C:\Users\adria\OneDrive\Pictures\ACSL_Logos-Black.png");
 }
