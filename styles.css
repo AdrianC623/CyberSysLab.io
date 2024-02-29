@@ -3,6 +3,9 @@ header {
     text-align: center;
     font-size: 32px;
     color: azure;
+    margin-top: 0%;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 header img {
@@ -14,7 +17,10 @@ header img {
     float: left;
     background-color: #f1f1f1;
     padding: 10px;
-    min-height: 1000px;
+    min-height: 590px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -24,5 +30,5 @@ main {
 }
 
 body {
-    background image: url ("C:\Users\adria\OneDrive\Pictures\ACSL_Logos-Black.png");
+    background-color: #a7a9ac;
 }
