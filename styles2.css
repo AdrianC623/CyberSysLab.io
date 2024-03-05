@@ -55,7 +55,7 @@ body {
 .newsfeed {
     background-color: rgb(7, 45, 170);
     width: 25%;
-    height: 700px;
+    height: 800px;
     border-radius: 10px;
     margin-right: 10px; /* Add spacing between the newsfeed and livefeed */
     font-family: 'Courier New', Courier, monospace;
