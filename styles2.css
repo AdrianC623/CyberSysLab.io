@@ -2,12 +2,12 @@
 header {
     background-color:rgb(33, 35, 206);
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 252, 252);
-    font-family:monospace;
+    font-family:'Courier New', Courier, monospace;
     font-style: bold;
     margin-top: 0%;
-    padding: 20px;
+    padding: 0px;
     border-radius: 10px;
 }
 
@@ -25,29 +25,29 @@ header img {
     margin-top: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    font-family:monospace;
+    font-family:'Courier New', Courier, monospace;
 }
 
 main {
     margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
     padding: 10px;
     background-color: #0c0c0c;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: rgb(10, 9, 9);
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 .main-container {
     width: 100%;
     background-color: rgb(8, 8, 8);
     min-height: 100%;
-    margin-top: 20px; /* Add spacing between the main-container and header/footer or other elements */
+    margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
     display: flex; /* Use flexbox layout */
     border-radius: 10px;
     color: #dfdfdf;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -57,7 +57,7 @@ body {
     height: 950px;
     border-radius: 10px;
     margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
 
@@ -68,7 +68,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     color: white;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
 }
 
@@ -78,12 +78,12 @@ iframe {
     border: 3px solid black;
     border-radius: 10px;
     border-color: #dfdfdf;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .main-container, h1 {
     text-align: center;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   a {
