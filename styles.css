@@ -1,12 +1,13 @@
 header {
     background-color: #0032a1;
     text-align: center;
-    font-size: 37px;
+    font-size: 28px;
     color: rgb(250, 252, 252);
     font-family:monospace;
     margin-top: 0%;
     padding: 20px;
     border-radius: 10px;
+    max-height: 10%;
 }
 
 header img {
@@ -29,6 +30,7 @@ main {
     margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
     padding: 10px;
     background-color: #fff;
+    max-height: 0%;
 }
 
 body {
@@ -38,7 +40,7 @@ body {
     width: 100%;
     background-color: rgb(243, 244, 248);
     min-height: 100%;
-    margin-top: 20px; /* Add spacing between the main-container and header/footer or other elements */
+    margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
     display: flex; /* Use flexbox layout */
     border-radius: 10px;
     color: #dfdfdf;
@@ -48,7 +50,7 @@ body {
 .newsfeed {
     background-color: rgb(7, 45, 170);
     width: 25%;
-    height: 840px;
+    height: 640px;
     border-radius: 10px;
     margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
 }
@@ -56,7 +58,7 @@ body {
 .livefeed {
     background-color: rgb(33, 35, 206);
     width: 75%;
-    height: 820px;
+    height: 640px;
     border-radius: 10px;
     padding: 10px;
     color: white;
