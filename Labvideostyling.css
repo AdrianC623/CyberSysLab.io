@@ -1,9 +1,10 @@
+/*header font styling */
 header {
     background-color:rgb(33, 35, 206);
     text-align: center;
     font-size: 30px;
     color: rgb(255, 252, 252);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: bold;
     margin-top: 0%;
     padding: 5px;
@@ -15,85 +16,71 @@ header img {
     float: right;
     position:;
 }
-header {
-    background-color: #0032a1;
-    text-align: center;
-    font-size: 28px;
-    color: rgb(250, 252, 252);
-    font-family:monospace;
-    margin-top: 0%;
-    padding: 20px;
-    border-radius: 10px;
-    max-height: 10%;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-header img {
-    float: right;
-}
-
 
 #sidebar {
-    width: 200px;
-    float: left;
-    background-color: #dfdfdf;
+    width: 150px;
+    float: right;
+    background-color: #070707;
     padding: 10px;
-    min-height: 625px;
+    min-height: 590px;
     margin-top: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
 }
 
 main {
     margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
     padding: 10px;
-    background-color: black;
-    max-height: 0%;
+    background-color: #0c0c0c;
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(10, 9, 9);
     font-family: 'Courier New', Courier, monospace;
 }
 .main-container {
     width: 100%;
-    background-color: black;
+    background-color: rgb(8, 8, 8);
     min-height: 100%;
     margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
     display: flex; /* Use flexbox layout */
     border-radius: 10px;
-    color: #dfdfdf;
+    color: rgba(255, 255, 255, 0.842);
     font-family: 'Courier New', Courier, monospace;
     
 }
 
 .newsfeed {
     background-color: rgb(7, 45, 170);
-    width: 25%;
-    height: 640px;
+    width: 85%;
+    height: 800px;
     border-radius: 10px;
-    margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
+    margin-right: 10px; /* Add spacing between the newsfeed and livefeed */
     font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
 }
 
 .livefeed {
     background-color: rgb(33, 35, 206);
-    width: 75%;
-    height: 625px;
+    width: 15%;
+    height: 700px;
     border-radius: 10px;
-    padding: 10px;
-    color: white;
+    padding: 16px;
+    color: rgba(255, 255, 255, 0.842);
     font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: left;
 }
 
-video{
+iframe {
     width: 100%;
-    height: 505px;
+    height: 400px;
     border: 3px solid black;
     border-radius: 10px;
     border-color: #dfdfdf;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .main-container, h1 {
@@ -104,4 +91,3 @@ video{
   a {
     color: white
   }
-  
