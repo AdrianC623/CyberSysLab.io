@@ -23,20 +23,7 @@
         </section>
         <section></section>
     </aside>
-    <script>
-        var pageList = ["index.html", "index2.html", "index3.html"]; // Updated pages order
-        var currentIndex = 0;
     
-        function transitionPage() {
-            currentIndex++;
-            if (currentIndex >= pageList.length) {
-                currentIndex = 0;
-            }
-            window.location.href = pageList[currentIndex];
-        }
-    
-        setInterval(transitionPage, 5000); // 5 seconds
-    </script>
     
        
            
@@ -58,6 +45,21 @@
         <video width="980" height="360" controls autoplay muted>
             <source src=" videos/Big G BB.mp4  " type="video/mp4">
         </div>
+
+        <script>
+            var pageList = ["index.html", "index2.html", "index3.html"]; // Updated pages order
+            var currentIndex = 0;
+        
+            function transitionPage() {
+                currentIndex++;
+                if (currentIndex >= pageList.length) {
+                    currentIndex = 0;
+                }
+                window.location.href = pageList[currentIndex];
+            }
+        
+            setInterval(transitionPage, 5000); // 5 seconds
+        </script>
         
 </body>
 </html>
