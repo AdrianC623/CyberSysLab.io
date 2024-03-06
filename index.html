@@ -6,43 +6,47 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<header>
-    <!--<img src="https://learn.maricopa.edu/courses/1317357/files/105456800/preview" alt="gateway G"-->
-    <h1><u>ADVANCED CYBER SYSTEMS LAB</u></h1>
-    
-
-</header>
 <body>
+    <header>
+        <!--<img src="https://learn.maricopa.edu/courses/1317357/files/105456800/preview" alt="gateway G">-->
+        <h1><u>ADVANCED CYBER SYSTEMS LAB</u></h1>
+    </header>
+
     <div class="main-container">
         <div class="newsfeed">
-<section>
-    <h3><u>Gateway Community College</u></h3>
-    <h4>MCCCD release findings from cyber security breach investigation</h4>
-    <P>PHOENIX — The Maricopa County Community College District is releasing the findings from an investigation into a cyber security breach that happened earlier this year.</P>
-    <h2>Scan QR Code:</h2>
-    <img src="img\qr-code (1).png" alt="QR Code">
-    
-
-</section>
+            <section>
+                <h3><u>Gateway Community College</u></h3>
+                <h4>MCCCD release findings from cyber security breach investigation</h4>
+                <p>PHOENIX — The Maricopa County Community College District is releasing the findings from an investigation into a cyber security breach that happened earlier this year.</p>
+                <h2>Scan QR Code:</h2>
+                <img src="img\qr-code (1).png" alt="QR Code">
+            </section>
         </div>
         <div class="livefeed">
             <section>
-                
                 <iframe width="870" height="560" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0"></iframe>
-                
-                
-        
             </section>
         </div>
-        
-    
-        <footer>
+    </div>
 
-        </footer>
-   <!-- <script>
-        setTimeout(function(){
-            window.location.href = "secondpage.html";
-        },60000);-->
-    </script>
+    
+        <!-- Your HTML code -->
+
+        <script>
+            var pageList = ["index2.html", "index3.html", "index.html"]; // Updated pages order
+            var currentIndex = 0;
+        
+            function transitionPage() {
+                currentIndex++;
+                if (currentIndex >= pageList.length) {
+                    currentIndex = 0;
+                }
+                window.location.href = pageList[currentIndex];
+            }
+            
+            setInterval(transitionPage, 5000); // 5 seconds
+        </script>
+
+    
 </body>
 </html>
