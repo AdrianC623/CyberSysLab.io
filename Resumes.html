@@ -5,35 +5,62 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Three Equal Columns</title>
 <style>
+    header {
+    background-color:rgb(7, 45, 170);
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, sans-serif;
+    margin-top: 0%;
+    padding: 5px;
+    min-height: 100px;
+    }
     body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
+        height: 100%;
+        color: rgb(255, 255, 255);
+        text-align: center;
     }
     .container {
         display: flex;
+        height: 100%;
     }
     .column {
         flex: 1;
         padding: 20px;
-        border: 1px solid #ccc;
+        border: 3px solid #050505;
+        height: 100%;
+        background-color: rgb(7, 45, 170);
     }
 </style>
 </head>
 <body>
-
+<header>
+<div class="header">
+<h2>Meet the students behind this project!</h2>
+</div>
+</header>
 <div class="container">
     <div class="column">
-        <h2>Column 1</h2>
-        <p>This is the content of column 1.</p>
+        <h1>Adrian Cardenas</h1>
+        <p>insert image her</p>
+        <p>insert QR to resume here</p>
     </div>
     <div class="column">
-        <h2>Column 2</h2>
-        <p>This is the content of column 2.</p>
+        <h1>Jossel Solis</h1>
+        <p>insert image here</p>
+        <p>
+            <img src="SolisQR.png" img style="width: 270px; height: 270px;">
+        </p>
     </div>
     <div class="column">
-        <h2>Column 3</h2>
-        <p>This is the content of column 3.</p>
+        <h1>Bemnet Berhe</h1>
+        <p>insert image here</p>
+        <p>
+            <img src="BemnetQR.png" img style="width: 270px; height: 270px;">
+        </p>
     </div>
 </div>
 
