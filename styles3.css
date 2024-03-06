@@ -25,6 +25,7 @@ header {
     padding: 20px;
     border-radius: 10px;
     max-height: 10%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header img {
@@ -41,6 +42,7 @@ header img {
     margin-top: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main {
@@ -48,10 +50,12 @@ main {
     padding: 10px;
     background-color: black;
     max-height: 0%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 .main-container {
     width: 100%;
@@ -61,6 +65,7 @@ body {
     display: flex; /* Use flexbox layout */
     border-radius: 10px;
     color: #dfdfdf;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -70,6 +75,7 @@ body {
     height: 640px;
     border-radius: 10px;
     margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .livefeed {
@@ -79,6 +85,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 iframe {
@@ -91,6 +98,7 @@ iframe {
 
   .main-container, h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   a {
