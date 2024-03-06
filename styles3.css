@@ -46,7 +46,7 @@ header img {
 }
 
 main {
-    margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
+    margin-left: 220px; 
     padding: 10px;
     background-color: black;
     max-height: 0%;
@@ -61,8 +61,8 @@ body {
     width: 100%;
     background-color: black;
     min-height: 100%;
-    margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
-    display: flex; /* Use flexbox layout */
+    margin-top: 10px; 
+    display: flex; 
     border-radius: 10px;
     color: #dfdfdf;
     font-family: 'Courier New', Courier, monospace;
@@ -74,7 +74,7 @@ body {
     width: 25%;
     height: 640px;
     border-radius: 10px;
-    margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
+    margin-right: 20px; 
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -90,7 +90,7 @@ body {
 
 video{
     width: 100%;
-    height: 505px;
+    height: 470px;
     border: 3px solid black;
     border-radius: 10px;
     border-color: #dfdfdf;
