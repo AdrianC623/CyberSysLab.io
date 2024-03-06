@@ -47,7 +47,7 @@ body {
     margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
     display: flex; /* Use flexbox layout */
     border-radius: 10px;
-    color: #dfdfdf;
+    color: rgba(255, 255, 255, 0.842);
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -55,11 +55,11 @@ body {
 .newsfeed {
     background-color: rgb(7, 45, 170);
     width: 25%;
-    height: 700px;
+    height: 800px;
     border-radius: 10px;
     margin-right: 10px; /* Add spacing between the newsfeed and livefeed */
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: x-large;
 }
 
 .livefeed {
@@ -67,10 +67,10 @@ body {
     width: 75%;
     height: 700px;
     border-radius: 10px;
-    padding: 10px;
-    color: white;
+    padding: 16px;
+    color: rgba(255, 255, 255, 0.842);
     font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 iframe {
