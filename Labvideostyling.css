@@ -91,3 +91,7 @@ iframe {
   a {
     color: white
   }
+  image{
+    height: 100px;
+    width: 250px;
+  }
