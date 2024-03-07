@@ -53,7 +53,7 @@ body {
 }
 
 .newsfeed {
-    background-color: rgb(7, 45, 170);
+    background-color: rgb(33, 35, 206);
     width: 25%;
     height: 800px;
     border-radius: 10px;
@@ -89,4 +89,9 @@ iframe {
 
   a {
     color: white
+  }
+  img{
+    width: 150px;
+    height: 140px;
+
   }

@@ -16,7 +16,7 @@ header img {
     position:;
 }
 header {
-    background-color: #0032a1;
+    background-color: rgb(33, 35, 206);
     text-align: center;
     font-size: 28px;
     color: rgb(250, 252, 252);
@@ -68,7 +68,7 @@ body {
 }
 
 .newsfeed {
-    background-color: rgb(7, 45, 170);
+    background-color: rgb(33, 35, 206);
     width: 25%;
     height: 640px;
     border-radius: 10px;
